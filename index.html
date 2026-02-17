@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🍽 Recipe App</h1>
+
+  <!-- Search Bar -->
+  <input type="text" id="searchInput" placeholder="Search recipes..." />
+
+  <!-- Filters -->
+  <div class="filters">
+    <button data-filter="all">All</button>
+    <button data-filter="easy">Easy</button>
+    <button data-filter="medium">Medium</button>
+    <button data-filter="hard">Hard</button>
+    <button data-filter="quick">Quick</button>
+    <button data-filter="favorites">Favorites ❤️</button>
+  </div>
+
+  <!-- Recipe Counter -->
+  <p id="recipeCounter"></p>
+
+  <!-- Recipe Container -->
+  <div id="recipeContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
